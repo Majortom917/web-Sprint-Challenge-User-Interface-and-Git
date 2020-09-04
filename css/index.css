@@ -54,7 +54,6 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    display: flex;
     align-items: center;
     flex-direction: column
 }
@@ -66,7 +65,7 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.4;margin-bottom:9%
 }
 
 .container {
@@ -169,9 +168,14 @@ footer nav a {
     border-bottom: 1px dashed black;
  }
  section .boxes-about{display: flex;
-    align-items: center wrap;
+    justify-content: center wrap; 
     }
-.box-about{ flex-direction: row;}
+.box-about{ flex-direction: row;
+     display: flex;
+    flex-flow: wrap;
+    width: 27%;
+    margin: 1% 49% 5% 18%;
+    border-bottom: dashed;}
 /* needs work!!!!------------------------------<
 .boxes-about{ width: 100%;
     height: auto;
@@ -180,4 +184,6 @@ footer nav a {
     display: block;
     align-items: center;
     justify-content: space-evenly;padding:20px 0} */
- div nav .learn a{color:red;border-radius: 20px solid black;}
+ .learn a{border: solid black;border-radius: 15%;
+padding:11px;}
+section{displa}
