@@ -163,4 +163,17 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0 20px;
-    border-bottom: 1px dashed black; }
+    border-bottom: 1px dashed black;
+ }
+ section .boxes-about{display: flex;
+    justify-content: center;
+    flex-wrap:wrap;}
+/* needs work!!!!------------------------------<
+.boxes-about{ width: 100%;
+    height: auto;
+    margin: 20px 2.5%;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;padding:20px 0} */
+ div nav .learn a{color:red;border-radius: 20px solid black;}
