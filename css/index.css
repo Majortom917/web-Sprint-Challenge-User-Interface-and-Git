@@ -166,7 +166,7 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; width:52%; margin: 0 auto;
 }
 .top-content2{
     display: flex;
@@ -205,4 +205,6 @@ footer nav a {
     justify-content: space-evenly;padding:20px 0} */
  .learn a{border: solid black;border-radius: 15%;
 padding:11px;}
-.end{text-align-last;center}
+.end{width:60%; margin: 2rem 0 0 23rem ;}
+nav .about{background-size:52%; margin: 0 1% 0 2%;}
+#background{width: 62%; margin-left:18rem;}
