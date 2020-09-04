@@ -80,7 +80,8 @@ p {
     align-items: center; margin: 0% 5% 0% 0%;}
    
 
-nav a{text-decoration:none;
+nav a{
+    text-decoration:none;
     color:black;
 }
 .top-content img{margin:30px 0;}
@@ -141,6 +142,14 @@ nav a{text-decoration:none;
     padding-right: 0;
 }
 
+.box-about a {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: black;
+    text-decoration: none;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -159,23 +168,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.top-content2{width: 100%;
+.top-content2{
+    display: flex;
+    width: 100%;
     padding: 0 1%;
-    padding-bottom: 20px;display: flex;
+    padding-bottom: 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0 20px;
     border-bottom: 1px dashed black;
  }
- section .boxes-about{display: flex;
-    justify-content: center wrap; 
-    }
-.box-about{ flex-direction: row;
-     display: flex;
-    flex-flow: wrap;
-    width: 27%;
-    margin: 1% 49% 5% 18%;
-    border-bottom: dashed;}
+ 
+  .boxes-about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+.box-about{ 
+    width: 42%;
+    /* margin: 1% 49% 5% 18%; */
+    border-bottom: dashed;
+    padding-bottom: 4rem;
+    margin-bottom: 1rem;
+}
 /* needs work!!!!------------------------------<
 .boxes-about{ width: 100%;
     height: auto;
@@ -186,4 +205,4 @@ footer nav a {
     justify-content: space-evenly;padding:20px 0} */
  .learn a{border: solid black;border-radius: 15%;
 padding:11px;}
-section{displa}
+.end{text-align-last;center}
