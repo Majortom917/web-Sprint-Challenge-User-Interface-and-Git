@@ -54,6 +54,9 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column
 }
 
 h1, h2, h3, h4, h5 {
@@ -166,8 +169,9 @@ footer nav a {
     border-bottom: 1px dashed black;
  }
  section .boxes-about{display: flex;
-    justify-content: center;
-    flex-wrap:wrap;}
+    align-items: center wrap;
+    }
+.box-about{ flex-direction: row;}
 /* needs work!!!!------------------------------<
 .boxes-about{ width: 100%;
     height: auto;
