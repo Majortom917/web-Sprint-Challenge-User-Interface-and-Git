@@ -54,22 +54,38 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    align-items: center;
+    flex-direction: column
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 15px;margin-top:15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.4;margin-bottom:9%
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
+
+.container nav{display:flex;
+     justify-content: center;
+    justify-content: space-between;
+    align-items: center; margin: 0% 5% 0% 0%;}
+   
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+.top-content img{margin:30px 0;}
+
 
 .top-content {
     display: flex;
@@ -104,13 +120,93 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:none;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1{width: 12.5%;
+    height: 100px;
+    background-color: teal;
+    margin: 20px 2.5%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box2{width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box3{width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+ .box4{width: 12.5%;
+        height: 100px;
+        background: coral;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+ .box5{width: 12.5%;
+            height: 100px;
+            background: crimson;
+            margin: 20px 2.5%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;}
+ .box6{width: 12.5%;
+                height: 100px;
+                background: forestgreen;
+                margin: 20px 2.5%;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;}
+.box7{width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+ .box8{width: 12.5%;
+        height: 100px;
+        background: hotpink;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+.box9{width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box10{width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 
 .bottom-content {
     display: flex;
@@ -124,6 +220,14 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.box-about a {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: black;
+    text-decoration: none;
 }
 
 footer {
@@ -142,5 +246,45 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; width:52%; margin: 0 auto;
 }
+.top-content2{
+    display: flex;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0 20px;
+    border-bottom: 1px dashed black;
+ }
+ 
+  .boxes-about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+.box-about{ 
+    width: 42%;
+    /* margin: 1% 49% 5% 18%; */
+    border-bottom: dashed;
+    padding-bottom: 4rem;
+    margin-bottom: 1rem;
+}
+/* needs work!!!!------------------------------<
+.boxes-about{ width: 100%;
+    height: auto;
+    margin: 20px 2.5%;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;padding:20px 0} */
+ .learn a{border: solid black;border-radius: 15%;
+padding:11px;}
+.end{width:60%; margin: 2rem 0 0 23rem ;}
+nav .about{background-size:52%; margin: 0 1% 0 2%;}
+#background{width: 62%; margin-left:18rem;}
